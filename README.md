@@ -1,4 +1,4 @@
-# React-Demo-Main (Part 2: Frontend Website) 
+# React-Demo-Main (Part 1: Frontend Website) 
 Basic Web Application built with Microsoft SQL Server, ASP.NET Core (MVC) 6.0, and React. 
 
 1.  https://www.reactdemo.net/ (Working Web Application | username: admin@reactdemo.net | password: see email message) 
