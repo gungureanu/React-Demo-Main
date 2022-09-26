@@ -1,0 +1,141 @@
+/* import './fonts/Goldman/Goldman-Bold.ttf'; */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 3px solid #d2e1f9;
+    z-index: 1;
+    height: 48px;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.login-wrapper {
+    width: 100%;
+    max-width: 640px;
+    height: 376px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    border: 1px solid #acacac;
+    border-radius: 16px;
+    overflow: hidden;
+    transform: translateX(-50%) translateY(70%);
+    /* -webkit-transform: translateX(-50%) translateY(70%);
+    -ms-transform: translateX(-50%) translateY(70%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 5px 0px rgb(0 0 0 / 30%);
+}
+
+.login-l {
+    width: 214px;
+    height: 100%;
+    background-color: #d2e1f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-r {
+    flex-grow: 1;
+    width: 1px;
+    padding: 40px 24px;
+}
+
+.log-in-txt {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0;
+    color: #bebebe;
+    font-size: 13px;
+}
+
+.login-field {
+    width: 100%;
+    height: 42px;
+    border: 0;
+    border-bottom: 1px solid #acacac;
+    outline: none;
+    padding: 0px 10px;
+    margin: 20px 0 0;
+}
+
+.login-btn {
+    width: 260px;
+    height: 36px;
+    background-color: #ff6200;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px auto 0;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid #ff6200;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.login-btn:hover {
+    background-color: #fff;
+    color: #ff6200;
+}
+
+.remember-me {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input[type='checkbox'] {
+    margin: 0 5px 0 0;
+}
+
+.remember-me label {
+    margin: 0;
+    font-weight: normal;
+    color: #bebebe;
+    font-size: 13px;
+}
+
+.main-container {
+    height: 100%;
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.db-lp {
+    width: 290px;
+    background-color: #d2e1f9;
+    border-radius: 8px;
+    height: 100%;
+    padding: 80px 10px 10px;
+}
+
+.db-rp {
+    width: 440px;
+    background-color: #f6f6f6;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.db-cp {
+    flex-grow: 1;
+    width: auto;
+    margin: 0 10px;
+}
+
+
+/***************************/
+@media (min-width:992px) {}
+
+@media (max-width:991px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:300px) {}
+
+@media (min-width: 300px) and (max-width: 767px) {}
